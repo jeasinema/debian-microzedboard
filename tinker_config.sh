@@ -57,7 +57,7 @@ filename=$TARGET_ROOTFS_DIR/etc/fstab
 #Add the standard Debian non-free repositories useful to load
 #closed source firmware (i.e. WiFi dongle firmware)
 filename=$TARGET_ROOTFS_DIR/etc/apt/sources.list
-echo deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse > $filename
+echo deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ xenial main restricted universe multiverse > $filename
 
 #for enable root login via ssh
 filename=$TARGET_ROOTFS_DIR/etc/ssh/sshd_config
