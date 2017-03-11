@@ -1,9 +1,9 @@
-# Debian on the Zynq based Microzedboard
+# Debian/Ubuntu on the Zynq based board
 Minimal debian filesystem for armhf and armel (arm hard floating point and arm soft floating point)
 
 Guide to create a minimal minimal Debian filesystem
 
-Adrian Remonda 2015
+Jeasine Ma 2016
 
 References:
 -----------
