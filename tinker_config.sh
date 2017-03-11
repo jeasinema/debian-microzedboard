@@ -5,6 +5,9 @@ TARGET_ROOTFS_DIR="target-rootfs"
 #Directory used to mount the boot partition 
 mkdir $TARGET_ROOTFS_DIR/media/BOOT
 
+#remove unnecessary source list
+rm $TARGET_ROOTFS_DIR /etc/apt/sources.list.d/multistrap-ubuntu.list
+
 #Board hostname
 filename=$TARGET_ROOTFS_DIR/etc/hostname
 echo zynq.furoc.net > $filename
