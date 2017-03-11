@@ -12,6 +12,7 @@ echo zynq.furoc.net > $filename
 # TODO test
 filename=$TARGET_ROOTFS_DIR/etc/securetty
 echo ttyPS1 >> $filename
+echo ttyPS0 >> $filename
 
 # TODO test this one
 filename=$TARGET_ROOTFS_DIR/etc/ssh/sshd_config
